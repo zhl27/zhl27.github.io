@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "TP CaC",
+			"path": "./pagina_TP_Cac"	
+		}
+	],
+	"settings": {
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "Update Submodules",
+				"command": "git submodules update --remote",
+				"type": "shell",
+				"args": [],
+				"problemMatcher": [
+					"$tsc"
+				],
+				"presentation": {
+					"reveal": "always",
+					"focus": true
+				},
+				"group": "build",
+				"runOptions": {"runOn": "folderOpen"}
+			}
+		]
+	}
+}
