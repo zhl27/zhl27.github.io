@@ -3,6 +3,10 @@
 		{
 			"name": "TP CaC",
 			"path": "./pagina_TP_Cac"	
+		},
+		{
+			"name":"Main Page",
+			"path":"."
 		}
 	],
 	"settings": {
@@ -12,7 +16,7 @@
 		"tasks": [
 			{
 				"label": "Update Submodules",
-				"command": "git submodules update --remote",
+				"command": "git submodule update --remote",
 				"type": "shell",
 				"args": [],
 				"problemMatcher": [
