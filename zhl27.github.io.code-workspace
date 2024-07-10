@@ -2,7 +2,7 @@
 	"folders": [
 		{
 			"name": "TP CaC",
-			"path": "./pagina_TP_Cac"	
+			"path": "./projects/pagina_TP_Cac"	
 		},
 		{
 			"name":"Main Page",
@@ -10,6 +10,7 @@
 		}
 	],
 	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Main Page"
 	},
 	"tasks": {
 		"version": "2.0.0",
