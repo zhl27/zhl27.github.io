@@ -16,7 +16,7 @@
 		"tasks": [
 			{
 				"label": "Update Submodules",
-				"command": "git submodule update --remote",
+				"command": "git submodule sync --recursive && git submodule update --remote",
 				"type": "shell",
 				"args": [],
 				"problemMatcher": [
