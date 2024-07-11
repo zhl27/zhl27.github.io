@@ -5,12 +5,11 @@
 			"path": "./projects/pagina_TP_Cac"	
 		},
 		{
-			"name":"Main Page",
 			"path":"."
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Main Page"
+		"liveServer.settings.multiRootWorkspaceName": "TP CaC"
 	},
 	"tasks": {
 		"version": "2.0.0",
@@ -28,7 +27,7 @@
 					"focus": true
 				},
 				"group": "build",
-				"runOptions": {"runOn": "folderOpen"}
+				// "runOptions": {"runOn": "folderOpen"}
 			}
 		]
 	}
